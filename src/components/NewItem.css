@@ -1,0 +1,12 @@
+.boxshadow {
+  -moz-box-shadow: 3px 3px 5px #535353;
+  -webkit-box-shadow: 3px 3px 5px #535353;
+  box-shadow: 3px 3px 5px #535353;
+}
+.roundbox {
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px 6px 6px 6px;
+  padding: 10px;
+  margin: 10px;
+}

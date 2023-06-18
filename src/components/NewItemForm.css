@@ -1,0 +1,37 @@
+.form_item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form_item label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.form_item input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.red {
+  color: red;
+}
+
+.error {
+  background-color: pink;
+}
+
+button {
+  padding: 10px;
+  color: white;
+  background-color: purple;
+  margin-left: 1rem;
+}

@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <NewItem></NewItem>
-      <br></br>
+      <br>New Change</br>
       <br></br>
       {goals.map((goal, index) => {
         return <ListItem key={index} name={goal}></ListItem>;
